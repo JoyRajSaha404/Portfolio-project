@@ -1,0 +1,274 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: rgb(240, 232, 228);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+}
+
+nav li a {
+    text-decoration: none;
+    color: rgb(78, 78, 78)
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-top: 50px;
+    align-items: center;
+}
+
+nav li {
+    margin-left: 50px;
+}
+
+.nav-title {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+nav span {
+    color: rgb(245, 120, 31);
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+    margin-top: 47px;
+    /* margin-right: 20px; */
+}
+
+.btn-primary {
+    background-color: rgb(245, 120, 31);
+    padding: 18px 35px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: beige;
+}
+
+.banner-img {
+    margin-left: 200px;
+    margin-right: 20px;
+}
+
+.banner-sub-title {
+    font-size: 40px;
+    font-weight: 549;
+    color: rgb(79, 78, 78);
+
+}
+
+.banner-title {
+    font-size: 70px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.banner-description-first {
+    font-size: 15px;
+    color: rgb(120, 120, 120);
+    padding-bottom: 6px;
+}
+
+.banner-description-second {
+    font-size: 15px;
+    color: rgb(120, 120, 120);
+    padding-bottom: 26px;
+}
+
+main {
+    background-color: rgb(251, 247, 243);
+    max-width: 1840px;
+    padding-top: 130px;
+}
+
+.about {
+    margin-right: 230px;
+    margin-bottom: 130px;
+    margin-left: 230px;
+    /* margin-top:130px ; */
+    background-color: rgb(240, 232, 228);
+
+}
+
+.about-me {
+    padding: 131px 173px 131px 140px;
+    text-align: center;
+}
+
+.section-title {
+    color: rgb(53, 53, 53);
+    padding-bottom: 40px;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.section-description {
+    font-size: 17px;
+    font-weight: 50;
+    color: rgb(119, 119, 119);
+    padding-bottom: 35px;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-name {
+    font-size: 15px;
+    color: rgb(119, 119, 119);
+}
+
+.data {
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(78, 78, 78);
+    padding-top: 5px;
+}
+
+/* .what-i-do {} */
+
+.what-i-do-section {
+    text-align: center;
+    margin-left: 345px;
+    margin-right: 345px;
+}
+
+.skill-container {
+    display: flex;
+    gap: 24px;
+    margin-left: 230px;
+    margin-right: 230px;
+    padding-bottom: 130px;
+}
+
+.skill {
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 5px;
+
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 17px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.skill-description {
+    color: rgb(120, 120, 120);
+    font-size: 16px;
+    font-weight: 100;
+}
+
+/* resumme */
+.resume-title {
+    text-align: center;
+    font-weight: 800px;
+    font-size: 29px;
+    padding-bottom: 130px;
+}
+
+.resume {
+    display: flex;
+    gap: 71px;
+    padding-left: 230px;
+    padding-right: 230px;
+}
+
+.resume-my {
+    font-weight: 790;
+    font-size: 25px;
+    color: rgb(64, 64, 64);
+}
+
+.resume-skill--title {
+    color: rgb(74, 74, 74);
+    font-weight: 790;
+    font-size: 21px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+.resume-skill-subtitle {
+    color: rgb(110, 110, 110);
+    padding-bottom: 20px;
+}
+
+.resume-skill-description {
+    color: rgb(158, 158, 158);
+    font-weight: 100;
+    font-size: 17px;
+    padding-bottom: 30px;
+}
+
+hr {
+    height: 1px;
+    background-color: rgb(202, 202, 202);
+    border: none;
+}
+.btn{
+    padding-top: 50px;
+    padding-left: 650px;
+    padding-right: 650px;
+    padding-bottom: 113px;
+}
+/* footer-part */
+.footer{
+    background-color:rgb(240, 232, 228) ;
+    display: flex;
+    gap:250px;
+    padding-top: 130px;
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-bottom: 130px;
+
+
+}
+textarea{
+    display:block;
+    border: none;
+}
+.footer-title{
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(48, 48, 48);
+    padding-bottom: 20px;
+}
+.footer-description{
+    color: rgb(125, 125, 125);
+
+}
+.icon{
+padding-top: 20px;
+}
+.icon img{
+    margin-right: 10px;
+}
+input[type="text"],input[type="email"],textarea{
+    margin-bottom: 20px;
+    width: 100%;
+    padding-left: 30px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border:0;
+}
